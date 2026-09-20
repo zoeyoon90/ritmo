@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
-    <html lang="en" className={monaSans.variable}>
+    <html lang="ko" className={monaSans.variable}>
       <body>{children}</body>
     </html>
   );
